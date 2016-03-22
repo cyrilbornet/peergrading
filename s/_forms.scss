@@ -1,0 +1,70 @@
+
+form {
+	label {
+		display:inline-block; width:130px; float:left; text-align:right; font-size:1em; margin-left:5px; margin:4px 5px 0 0; white-space:nowrap; height:1em;
+	}
+	select.small, input.small { font-size:10px; height:18px; }
+	p { color:#fff; }
+
+	.wrong { background:#CC0000; color:white; }
+
+	.form_comment {
+		font-size:0.9em; margin-right:0.3em; margin-top:3px; margin-bottom:-0.2em; white-space:nowrap; height:1em; color:#333333;
+	}
+
+	ol.sortable {
+		list-style-type:none; margin:0; padding:0; margin-left:30px; border-left:1px solid #666; cursor:move;
+		>li { border-bottom:1px solid #ddd; border-right:1px solid #ddd; background-color:#F9F9F9; }
+		&+div.sortfoot { border:1px dashed #ccc; border-left:1px dashed #666; border-top:0; background-color:#F9F9F9; margin-left:30px; padding:5px; }
+	}
+	.listCheck {
+		border:1px solid #999; box-shadow:inset 1px 1px 2px #ccc; margin-left:142px; width:390px; height:200px; padding:4px; overflow:auto;
+		label { position:absolute; left:49px; }
+		>div { display:block; }
+	}
+	/*
+	.accordion { }
+	.accordion>div { margin-left:20px; }
+	.accordion h3 { float:left; margin:0; padding:0; width:30px; clear:both; }
+	.accordion h3 a { text-decoration:none; }
+	.accordion .handle { float:left; display:block; margin:1px 0 -1px 0; width:16px; height:16px; }
+	*/
+
+	.nestedaccordion {
+		>div { margin-left:20px; }
+		h3 {
+			float:left; margin:0; padding:0; width:30px; clear:both;
+			a { text-decoration:none; }
+		}
+		.handle { float:left; display:block; margin:1px 0 -1px 0; width:16px; height:16px; }
+	}
+
+	.checkaccordion {
+		h3 { font-weight:bold; }
+		ul { margin-left:40px; }
+	}
+
+	td.number { text-align:right; }
+
+	.fileInput {
+		div.file { width:350px; height:23px; overflow:hidden; background:#ccc; border:2px solid #fff; }
+		p { width:260px; height:17px; overflow:hidden; float:left; background:#fff; margin:2px; padding-left:3px; border-left:1px solid #999; border-top:1px solid #999; }
+		div.new { float:left; width:350px; margin:1px; border:1px dashed #999; }
+	}
+	.hidden { display:none; }
+
+	div.fu { float:left; width:440px; height:25px; border:1px solid #ccc; background:#F6F6F6; font-family:Helvetica, Arial, sans-serif; font-size:11px; }
+	div.fu_fileInfo { width:200px; text-overflow:hidden; float:left; margin:6px; }
+	div.fu div.field { width:300px; height:17px; overflow:hidden; float:left; background:#fff; margin:2px; padding-left:3px; border-left:1px solid #999; border-top:1px solid #999; }
+	div.fu_progress { float:left; width:220px; display:none; }
+	div.fu_progress img { border:0; float:left; margin:2px; }
+	div.progressValue { width:100%; text-align:center; color:#666; margin-left:20px; }
+	div.progressBar { width:200px; background:#ccc; height:10px; margin-left:20px; }
+	div.progressLevel { background:red; height:100%; }
+
+	fieldset {
+		border:1px solid #999;
+		border-radius:5px;
+	}
+
+}
